@@ -1,10 +1,10 @@
-/*===================================DATABASE====================================*/
+/*======================================================DATABASE============================================================*/
 
 CREATE DATABASE IF NOT EXISTS Library_Management_System;
 
 USE Library_Management_System;
  
- /*=====================================TABLES======================================*/
+ /*=====================================================TABLES=============================================================*/
  
 CREATE TABLE Authors(
 	AuthorID INT AUTO_INCREMENT PRIMARY KEY,
@@ -72,7 +72,7 @@ CREATE TABLE Staff(
  
  SELECT * FROM Staff;
 
-/*==============================POPULATING TABLES===================================*/
+/*================================================POPULATING TABLES=====================================================*/
 
 INSERT INTO Authors (AuthorName) VALUES
 ('J.K, Rowling'),
@@ -177,9 +177,9 @@ INSERT INTO Staff(StaffName, Role) VALUES
 
 SELECT * FROM Staff;
 
-/*=============================END POPULATING TABLES====================================*/
+/*===========================================================END POPULATING TABLES=========================================================*/
 
-/*==============================STORED PROCEDURE QUERY QUESTIONS========================*/
+/*=======================================================STORED PROCEDURE QUERY QUESTIONS=================================================*/
 
 /* #1 RETRIEVE TITLES AND AUTHOR OF ALL BOOKS*/
 
